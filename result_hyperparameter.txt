@@ -1,0 +1,27 @@
+Fitting 5 folds for each of 9 candidates, totalling 45 fits
+
+Linear SVM
+test_accuracy 0.9887235866170094
+test_f1 0.988891069003804
+test_precision 0.9824017124969764
+test_recall 0.9954781734228494
+Total time (s): 29.325888633728027
+
+RBF SVM
+Best CV score: 0.9860379428596332
+Best params: {'clf__C': 10, 'clf__gamma': 'scale'}
+Total time (s): 1690.3533716201782
+
+Logistic Regression
+test_accuracy 0.9828454099285091
+test_f1 0.9832219331216875
+test_precision 0.9700418407357109
+test_recall 0.9967872723152318
+Total time (s): 23.485711574554443
+
+Decision Tree
+test_accuracy 0.9354608418646105
+test_f1 0.938553186622254
+test_precision 0.9024001636553564
+test_recall 0.9777470184980596
+Total time (s): 17.4112811088562
